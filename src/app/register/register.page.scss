@@ -1,0 +1,18 @@
+.full-height{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .plano-de-fundo{
+    --background: url('https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center / cover;
+     }
+  
+  .titulo{
+    color: rgb(255, 220, 62);
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+  }
