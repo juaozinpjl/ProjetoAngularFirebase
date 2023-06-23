@@ -15,38 +15,8 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
-  {
-    path: 'register',
-    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
-  },
-  {
-    path: 'cadastrar-animal',
-    loadChildren: () => import('./cadastrar-animal/cadastrar-animal.module').then( m => m.CadastrarAnimalPageModule)
-  },
-  {
-    path: 'visualizar-animal',
-    loadChildren: () => import('./visualizar-animal/visualizar-animal.module').then( m => m.VisualizarAnimalPageModule)
-  },
-  {
-    path: 'consultar-animal',
-    loadChildren: () => import('./consultar-animal/consultar-animal.module').then( m => m.ConsultarAnimalPageModule)
-  },
-  {
-    path: 'editar-animal',
-    loadChildren: () => import('./editar-animal/editar-animal.module').then( m => m.EditarAnimalPageModule)
-  },
-  {
-    path: 'remover-animal',
-    loadChildren: () => import('./remover-animal/remover-animal.module').then( m => m.RemoverAnimalPageModule)
-  },
-  {
-    path: 'gerenciar-animal',
-    loadChildren: () => import('./gerenciar-animal/gerenciar-animal.module').then( m => m.GerenciarAnimalPageModule)
-  },
-  {
-    path: 'atualizar-animal',
-    loadChildren: () => import('./atualizar-animal/atualizar-animal.module').then( m => m.AtualizarAnimalPageModule)
-  },
+
+
   {
     path: 'mario',
     loadChildren: () => import('./mario/mario.module').then( m => m.MarioPageModule)
@@ -102,6 +72,18 @@ const routes: Routes = [
   {
     path: 'shy',
     loadChildren: () => import('./shy/shy.module').then( m => m.ShyPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'sobre',
+    loadChildren: () => import('./sobre/sobre.module').then( m => m.SobrePageModule)
   },
 ];
 
